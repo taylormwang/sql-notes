@@ -1,0 +1,45 @@
+---
+title: "sql-intro"
+author: "Minruo Wang"
+date: "3/19/2020"
+output: 
+  html_document:
+    toc: true
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+### 1. 什么是数据库？什么是SQL？  
+
+常见数据库类型：关系数据库=多张表+各表之间的关系   
+
+表的结构：   
+
+- 主键：表示一行数据的唯一性  
+
+各表间的关系：通过  
+
+什么是SQL：操作数据库的语言
+
+```{r}
+
+```
+
+### 2. 如何安装数据库  
+
+
+
+### 3. 表的创建、删除和更新   
+
+```{r}
+
+```
+
+
+
+### 4. 数据的插入、删除和更新
+
+
+
