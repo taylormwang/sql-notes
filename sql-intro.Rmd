@@ -1,5 +1,10 @@
 ---
 title: "sql-intro"
+knit: (function(input_file, encoding) {
+  out_dir <- 'docs';
+  rmarkdown::render(input_file,
+                    encoding=encoding,
+                    output_file=file.path(dirname(input_file), out_dir, 'index.html'))})
 author: "Minruo Wang"
 date: "3/19/2020"
 output: 
@@ -17,9 +22,13 @@ knitr::opts_chunk$set(echo = TRUE)
 
 表的结构：   
 
+- 列  
+
+- 行  
+
 - 主键：表示一行数据的唯一性  
 
-各表间的关系：通过  
+各表间的关系：  
 
 什么是SQL：操作数据库的语言
 
